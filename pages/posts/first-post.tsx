@@ -1,5 +1,5 @@
-import Link from 'next/link'
-import Head from 'next/head'
+import Link from 'next/Link'
+import Head from 'next/Head'
 import React from 'react'
 import Layout from '../../components/layout'
 
