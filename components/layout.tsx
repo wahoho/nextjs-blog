@@ -1,7 +1,7 @@
 import styles from './layout.module.css'
-import Head from 'next/Head'
-import Image from 'next/Image'
-import Link from 'next/Link'
+import Head from 'next/head'
+import Image from 'next/image'
+import Link from 'next/link'
 import utilStyles from '../styles/utils.module.css'
 
 const name = 'Jason'

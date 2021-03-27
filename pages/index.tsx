@@ -1,9 +1,9 @@
-import Head from 'next/Head'
+import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import { getSortedPostsData } from '../lib/posts'
 import { GetStaticProps } from 'next'
-import Link from 'next/Link'
+import Link from 'next/link'
 import Date from '../components/date'
 
 export default function Home({ allPostsData }: { allPostsData: { id: string, title: string, date: string }[] }) {
